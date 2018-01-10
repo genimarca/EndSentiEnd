@@ -7,9 +7,9 @@ of the sentiment of an utterance (text or speech) is not a trivial task and it
 goes beyond the identification of the number of positive and negative words in the text.
 
 The aim of this project is the development of a classification system for the
-task of fine grained sentiment analysis, in other word Aspect Based Sentiment
-Analysis. The final system must recognise the entities, aspects, attributes and
-classify the opinion of expressed about them in the input utterance.
+task of fine grained sentiment analysis, in other words Aspect Based Sentiment
+Analysis (ABSA). The final system must recognise entities, aspects, attributes and
+classify the opinion's sentiment about them in the input utterance.
 
 The development will be incrementally and it will start with a base system for
 the identification of aspects and several modules will be added in order to
@@ -33,7 +33,8 @@ TBA
 ## Contact people
 
 Eugenio Martínez Cámara, emcamara@decsai.ugr.es
-Ana Valdía García, avaldivia@decsai.ugr.es
+
+Ana Valdivia García, avaldivia@ugr.es
 
 Don't hesitate to send us an e-mail if you are interested on the project.
 
