@@ -2,7 +2,7 @@
 # EndSentiEnd
 
 __Sentiment Analysis__ is the NLP task focused on the computational treatment
-of opinions, sentiment and subjectivity in text [1](#ref_pang_lee_2008). The study 
+of opinions, sentiment and subjectivity in text [[1]](#ref_pang_lee_2008). The study 
 of the sentiment of an utterance (text or speech) is not a trivial task and it
 goes beyond the identification of the number of positive and negative words in the text.
 
