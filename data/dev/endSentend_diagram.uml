@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_TiD90PYkEeeMGJOau0KK_A" name="endSentend_diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_TxMmAPYkEeeMGJOau0KK_A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Model" xmi:id="_a5KuQPYkEeeMGJOau0KK_A" name="EndSentiEndApp" visibility="public" URI="">
+    <packagedElement xmi:type="uml:Package" xmi:id="_j_SlQPYkEeeMGJOau0KK_A" name="view" visibility="public"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_uPaxQPYkEeeMGJOau0KK_A" name="controller"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wUr0oPYkEeeMGJOau0KK_A" name="model">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_0iZLMPYkEeeMGJOau0KK_A" name="AModel" isAbstract="true">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_-Omx0PYkEeeMGJOau0KK_A" name="initialize" concurrency="concurrent">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_PUzdwPYlEeeMGJOau0KK_A" name="path_conf_file" effect="read">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_T15DUPYlEeeMGJOau0KK_A" name="read_corpora"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_y5ca8PYlEeeMGJOau0KK_A" name="read_model"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_0O9cYPYlEeeMGJOau0KK_A" name="classification_fit"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_17aXIPYlEeeMGJOau0KK_A" name="classification_test"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_3QprwPYlEeeMGJOau0KK_A" name="evaluation"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_4V0kEPYlEeeMGJOau0KK_A" name="write_results"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_6EUGMPYlEeeMGJOau0KK_A" name="write_class_output"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_bxyGYPYmEeeMGJOau0KK_A" name="model_end_sent_end"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_kFb-oPYmEeeMGJOau0KK_A" client="_bxyGYPYmEeeMGJOau0KK_A" supplier="_0iZLMPYkEeeMGJOau0KK_A"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

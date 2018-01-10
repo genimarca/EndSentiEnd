@@ -1,0 +1,47 @@
+###########################
+######## DEV. NOTES #######
+###########################
+
+Entradas del sistema
+-----------------------
+* Corpus de entrenamiento
+* Corpus de test
+* Ruta del fichero de salida de resultados
+* Parámetros de configuración del modelo de clasificación
+* Modo AJP --> Ruta donde guardar el mejor modelo.
+
+Para facilitar la ejecución del sistema todo deberá englobarse en un fichero
+de configuración.
+
+Modos de ejecución
+-----------------------
+* Ajuste de parámetros (MAJP)
+	- Entrada (más lo indicado arriba):
+		* Corpus entrenamiento: conj. entrenamiento del corpus seleccionado.
+		* Corpus test: conj. de desarrollo (dev.)
+	- Salida:
+		* Fichero de resultados
+		* Modelo que haya devuelto los mejores resultados (todos los parámetros
+		 de la red).
+		 * Fichero de clasificación, id doc. clase real, clase predicha.
+	- Operaciones principales:
+		- Lectura de corpus
+		- Entrenamiento (tantos epochs y batches como se indique en la entrada).
+		- Evaluación
+		- Escritura resultados
+		- Escritura modelo
+		- Escritura fichero de clasificación
+* Clasificación (MCN)
+	- Entrada (más lo indicado arriba):
+		* Corpus entrenamiento: conj. entrenamiento del corpus seleccionado.
+		* Corpus test: conj. de test del corpus seleccionado
+	- Salida:
+		* Fichero de resultados
+		* Fichero de clasificación, id doc. clase real, clase predicha.
+	- Operaciones principales:
+		- Lectura de corpus
+		- Lectura modelo de entrenamiento
+		- Clasificación
+		- Evaluación
+		- Escritura fichero de resultados
+		- Escritura fichero de clasificación
