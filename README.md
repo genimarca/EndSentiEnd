@@ -33,7 +33,8 @@ TBA
 ## Contact people
 
 Eugenio Martínez Cámara, emcamara@decsai.ugr.es
-Ana Valdiviaa García, avaldivia@ugr.es
+
+Ana Valdivia García, avaldivia@ugr.es
 
 Don't hesitate to send us an e-mail if you are interested on the project.
 
