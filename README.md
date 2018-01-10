@@ -19,12 +19,11 @@ This repository contains experimental software, so you should not use it in a
 production environment. Moreover, the authors of the code are not responsible
 of the issues that can cause the run of the code. 
 
- ## Project Structured
+## Project Structured
 
 TBA
 
-## Requirements
-
+## Requirements
 
 *   Python 3
 *   TensorFlow
